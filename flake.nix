@@ -9,19 +9,19 @@
     };
     rpi-linux-6_6-src = {
       flake = false;
-      url = "github:raspberrypi/linux/stable_20240423";
+      url = "github:raspberrypi/linux/stable_20240529";
     };
     rpi-firmware-src = {
       flake = false;
-      url = "github:raspberrypi/firmware/1.20240424";
+      url = "github:raspberrypi/firmware/1.20240529";
     };
     rpi-firmware-nonfree-src = {
       flake = false;
-      url = "github:RPi-Distro/firmware-nonfree/88aa085bfa1a4650e1ccd88896f8343c22a24055";
+      url = "github:RPi-Distro/firmware-nonfree/223ccf3a3ddb11b3ea829749fbbba4d65b380897";
     };
     rpi-bluez-firmware-src = {
       flake = false;
-      url = "github:RPi-Distro/bluez-firmware/d9d4741caba7314d6500f588b1eaa5ab387a4ff5";
+      url = "github:RPi-Distro/bluez-firmware/78d6a07730e2d20c035899521ab67726dc028e1c";
     };
     libcamera-apps-src = {
       flake = false;
